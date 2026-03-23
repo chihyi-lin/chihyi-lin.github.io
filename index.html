@@ -352,29 +352,8 @@
       <a href="https://github.com/chihyi-lin" target="_blank" rel="noopener" class="btn btn-ghost" style="font-size:0.8rem;">All on GitHub ↗</a>
     </div>
     <div class="projects-grid">
+
       <!-- PROJECT 1 -->
-      <a href="https://docs.google.com/presentation/d/1ODjj_cedWCq_oH2lEs39ZunNBllvXC40/edit?slide=id.p1#slide=id.p1" target="_blank" rel="noopener" class="project-card">
-        <div class="card-top">
-          <div class="card-icon">🌾</div>
-          <span class="card-arrow">↗</span>
-        </div>
-        <h3 class="card-title">(Thesis) Automated Data Generation Pipeline</h3>
-        <p class="card-desc">
-            <li>Designed and engineered a multi-stage LLM pipeline (GPT-4o) for image summarization, text annotation, Q&A pair generation across HTML documents, chart images, and tabular data</li>
-            <li>Curated a large-scale multimodal RAG dataset: 400+ HTML documents, 800+ chart images, 770+ CSV files; generated 700+ high-quality Q&A pairs with human validation</li>
-            <li>Built structured validation schemas (JSON/Pydantic) at each pipeline stage, enabling reproducible outputs, step-wise debugging, and robust error handling</li>
-            <li>Implemented prompt chaining to integrate cross-modal context (images + tables), improving contextual consistency and completeness</li>
-            <div class="card-tags">
-          <span class="tag tag-accent">LLMs</span>
-          <span class="tag">Prompt Engineering</span>
-          <span class="tag">Data Visualization</span>
-          <span class="tag">Statistical Analysis</span>
-          <span class="tag">CI/CD</span>
-        </div>
-      </a>
-
-
-      <!-- PROJECT 2 -->
       <a href="https://github.com/chihyi-lin/email-assistant" target="_blank" rel="noopener" class="project-card">
         <div class="card-top">
           <div class="card-icon">✉️</div>
@@ -391,6 +370,27 @@
           <span class="tag">LangChain</span>
           <span class="tag">CI/CD</span>
           <span class="tag">Azure</span>
+        </div>
+      </a>
+
+      <!-- PROJECT 2 -->
+      <a href="https://docs.google.com/presentation/d/1ODjj_cedWCq_oH2lEs39ZunNBllvXC40/edit?slide=id.p1#slide=id.p1" target="_blank" rel="noopener" class="project-card">
+        <div class="card-top">
+          <div class="card-icon">🌾</div>
+          <span class="card-arrow">↗</span>
+        </div>
+        <h3 class="card-title">Thesis: Automated Data Generation Pipeline</h3>
+        <p class="card-desc">
+            <li>Designed and engineered a multimodal LLM orchestration (GPT-4o) for image summarization, text annotation, and Q&A pair generation across HTML documents, chart images, and tabular data; applied context tuning to improve Q&A synthesis quality</li>
+            <li>Curated a large-scale multimodal RAG dataset: 400+ HTML documents, 800+ chart images, 770+ CSV files; generated 700+ high-quality Q&A pairs with human validation</li>
+            <li>Built structured validation schemas (JSON/Pydantic) at each pipeline stage, enabling reproducible outputs, step-wise debugging, and robust error handling</li>
+            <li>Implemented prompt chaining to integrate cross-modal context (images + tables), improving contextual consistency and completeness</li>
+            <div class="card-tags">
+          <span class="tag tag-accent">LLMs</span>
+          <span class="tag">Prompt Engineering</span>
+          <span class="tag">Data Visualization</span>
+          <span class="tag">Statistical Analysis</span>
+          <span class="tag">CI/CD</span>
         </div>
       </a>
 
@@ -421,7 +421,7 @@
         <h3 class="card-title">Deepfake Audio Detection</h3>
         <p class="card-desc">
             <li>Trained CNN models (ResNet18, MesoNet) using 2D audio feature representations (LFCC, MFCC, Whisper) as image inputs</li>
-            <li>Results show that a non-standard One-Class Softmax loss function achieving a 7% reduction in error rate over the baseline; Hybrid features (Whisper + MFCC) outperform conventional ones.</li>
+            <li>Results show that a non-standard One-Class Softmax loss function achieving a 7% reduction in error rate over the baseline; hybrid features (Whisper + MFCC) outperform conventional ones.</li>
             <li>Utilized high-dimensional data visualization techniques (t-SNE and PCA), providing explainability for complex model results</li>
             <div class="card-tags">
           <span class="tag tag-accent">PyTorch</span>
